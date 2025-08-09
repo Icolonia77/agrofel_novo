@@ -26,7 +26,7 @@ if not GOOGLE_API_KEY:
     st.stop()
 genai.configure(api_key=GOOGLE_API_KEY)
 
-AGROFEL_INDEX_DIR = os.getenv("AGROFEL_INDEX_DIR", "./index/faiss_index_agrofel")
+AGROFEL_INDEX_DIR = os.getenv("AGROFEL_INDEX_DIR", "./faiss_index_agrofel")
 UNKNOWN = "Não especificado"
 
 # -------------------- SCHEMA --------------------
