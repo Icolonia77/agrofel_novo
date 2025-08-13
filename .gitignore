@@ -1,3 +1,14 @@
+# Ambientes Virtuais
+venv/
+*.venv
+env/
 .env
-.venv/
-.agrofel_novo/
+
+# Arquivos de Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos do VS Code
+.vscode/

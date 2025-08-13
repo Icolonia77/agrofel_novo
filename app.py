@@ -401,7 +401,7 @@ def warmup():
     _load_components_cached()
 
 # -------------------- UI (Streamlit) --------------------
-st.title("🌿 Assistente de Campo Agrofel (v2)")
+st.title("🌿 Assistente de Campo Agrofel")
 st.caption("RAG híbrido (FAISS+BM25+MMR+RRF) + extração estruturada com citações de bula.")
 
 with st.sidebar:
